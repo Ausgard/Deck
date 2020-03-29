@@ -79,3 +79,23 @@
   background-position: 0 0;
   border: none;
   margin: 0px 2.64% 0px 0px; }
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+  .main-header {
+    min-width: 768px;
+    width: 100%;
+    margin: 0 auto; }
+  .main-header__menu-list {
+    display: none; } }
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .main-header__menu-list {
+    display: none; }
+  .main-header {
+    min-width: 375px;
+    width: 100%;
+    min-height: 69px; }
+  .main-header__logo {
+    margin: 0px 0px 0px 5.6%; }
+  .main-header__menu-btn {
+    margin: 0px 5.6% 0px 0px; } }
