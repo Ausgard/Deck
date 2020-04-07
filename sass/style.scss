@@ -215,6 +215,129 @@ $Img_w: 30vw;
     margin: 0px;
 }
 
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 11.112vw;
+    flex-wrap: wrap;
+    background-color: #1d1f24;
+    font-family: $Oswald;
+    font-size: 14px;
+}
+
+.main-footer__copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    width: 13vw;
+    margin: 0% 0% 0% 0%;
+}
+
+.main-header__logo--footer-logo {
+    margin: 21% 0% 5% 0%;
+    padding: 0% 0% 0% 20%;
+    color: #494b4f;
+}
+
+.main-header__logo--footer-logo:after {
+    left: 102%;
+}
+
+.main-footer__text {
+    font-family: $Lato;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #cbcccc;
+    margin: 0% 0% auto 0%;
+    padding: 0% 0% 0% 20%;
+}
+
+.main-footer-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 57.4vw;
+    height: 43%;
+    margin: auto 0% auto 0%;
+    padding: 0% 0% 1% 5.85%;
+
+}
+
+.main-footer-menu__item {
+    list-style: none;
+    padding: 0% 0% 0% 0%;
+}
+
+.main-footer-menu {
+    .main-footer-menu__item:nth-of-type(1) {
+    padding: 0% 14.5% 0% 0%;
+    }
+    .main-footer-menu__item:nth-of-type(2) {
+        padding: 0% 13% 0% 0%;
+    }
+    .main-footer-menu__item:nth-of-type(3) {
+        padding: 0% 16.2% 0% 0%;
+    }
+    .main-footer-menu__item:nth-of-type(4) {
+        padding: 0% 21% 0% 0%;
+    }
+    .main-footer-menu__item:nth-of-type(5) {
+        padding: 0% 20% 0% 0%;
+    }
+    .main-footer-menu__item:nth-of-type(6) {
+        padding: 0% 17.3% 0% 0%;
+    }
+}
+
+.main-footer-menu__link {
+    font-family: $Oswald;
+    color: #ffffff;
+    letter-spacing: 0.075em;
+    line-height: normal;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0%;
+}
+
+.main-footer-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 22.6vw;
+}
+
+.main-footer-social__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-footer-social__email {
+    border: none;
+    background-color: #ffffff;
+    padding: 0.764vw 3.312vw 0.764vw 1.203vw;
+}
+
+.main-footer-social__btn {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    background-color: #ff565c;
+    padding: 0.764vw 2.406vw;
+}
+
 @media screen and (min-width: $Tablet) and (max-width: $Desktop) {
     $Img_w: 46.35vw;
 
