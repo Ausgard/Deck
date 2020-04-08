@@ -308,12 +308,62 @@ $Img_w: 30vw;
 
 .main-footer-social {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: flex-end;
     height: 100%;
-    width: 22.6vw;
+    width: 21vw;
+}
+
+.main-footer-social__list {
+    display: flex;
+    width: 14vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 0% 0% 0%;
+    margin: 15.6% 0% 5% 0%;
+}
+
+.main-footer-social__text {
+    color: #ffffff;
+    font-family: $Lato;
+    line-height: 22px;
+    font-size: 14px;
+    margin: 0% 0% 0% 0%;
+}
+
+.main-footer-social__link {
+    display: flex;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: transparent;
+}
+
+.main-footer-social__link--inst {
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/icon-inst.svg);
+}
+
+
+.main-footer-social__link--pin {
+    width: 12.4px;
+    height: 16px;
+    background-image: url(/img/icon-pinterest.svg);
+}
+
+.main-footer-social__link--tw {
+    width: 16px;
+    height: 13px;
+    background-image: url(/img/icon-twitter.svg);
+}
+
+.main-footer-social__link--fs {
+    width: 7.4px;
+    height: 16px;
+    background-image: url(/img/icon-facebook.svg);
 }
 
 .main-footer-social__form {
@@ -321,12 +371,15 @@ $Img_w: 30vw;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    margin: 0% 0% auto 0%;
 }
 
 .main-footer-social__email {
+    line-height: 22px;
+    letter-spacing: 0.065em;
     border: none;
     background-color: #ffffff;
-    padding: 0.764vw 3.312vw 0.764vw 1.203vw;
+    padding: 0.452vw 3.312vw 0.452vw 1.203vw;
 }
 
 .main-footer-social__btn {
