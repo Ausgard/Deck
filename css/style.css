@@ -825,4 +825,42 @@ body {
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
   .main-footer-menu__link {
-    padding: 5px; } }
+    padding: 5px; }
+  .main-header--category {
+    position: relative; }
+  .main-content--category {
+    flex-direction: column-reverse;
+    width: 100vw;
+    margin: 0% 0% 0% 0%;
+    padding: 0% 0% 0% 0%; }
+  .main-content__item-wrapper {
+    height: 149.334vw;
+    width: 100vw; }
+  .main-content__item-list {
+    height: 149.334vw;
+    width: 100vw; }
+  .main-content__link-list {
+    justify-content: flex-start;
+    width: 100vw;
+    height: 200vw;
+    margin: 0% 0% 138px 0%;
+    padding: 0% 0% 0% 0%; }
+  .main-content__link-headline {
+    font-size: 10.666vw;
+    line-height: 12.266vw;
+    margin: 60px auto 41px 5%;
+    padding: 0% 0% 0% 0%; }
+    .main-content__link-headline :after {
+      width: 9px;
+      height: 9px;
+      top: 25%;
+      left: 45.5%; }
+  .main-content__link {
+    font-size: 18px;
+    height: 20.267vw;
+    width: 80vw;
+    font-weight: 500;
+    margin: 0% 0% 0% 30px; }
+    .main-content__link:before {
+      top: 7.45vw;
+      left: -32px; } }
