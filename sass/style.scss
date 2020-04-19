@@ -1357,18 +1357,16 @@ body{
     }
 
     .author-card--post-by {
-        width: 100vw;
+        width: 63vw;
         margin: 15px 0% 111px 0%;
-        padding: 0% 0% 0% 47%;
+        padding: 0% 0% 0% 0%;
     }
 
     .article-content__entrance-text {
-        width: auto;
+        width: 63vw;
         font-size: 24px;
         line-height: 30px;
-        letter-spacing: 0;
-        padding: 0% 15% 0% 10%;
-        margin: 0% 0% 4% 0%;
+        margin: 0% 0% 53px 0%;
     }
 
     .article-content__text {
@@ -1383,33 +1381,134 @@ body{
     }
 
     .article-content__list {
-        margin: 12.5% 0% 0% 0%;
-        padding: 5.4% 0% 1.5% 34%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 12.5% 0% 8% 0%;
+        padding: 5.4% 0% 60px 3%;
         .article-content__list-item:nth-of-type(1) {
-            margin: 0% 0% 5.1% 10.7%;
+            margin: 0% 0% 5% 0%;
         }
         .article-content__list-item:nth-of-type(2) {
-            margin: 0% 0% 7.4% 10.7%;
+            margin: 0% 0% 0% 0%;
         }
     }
 
     .article-content__list-item {
+        width: auto;
         &:before {
             left: -7.3%;
         }
     }
 
+    .article-content__list-headline {
+        margin: 0% 0% 0% 4%;   
+    }
+
     .article-content__list-text {
-        width: auto;
-        padding: 0% 36% 0% 0%;
-        margin: 1% 0% 0% 0%;
+        width: 53.703vw;
+        padding: 0% 0% 0% 4%;
+        margin: 2% 0% 0% 0%;
     }
 
     .article-content__end-text {
-        width: 100vw;
+        width: auto;
         height: auto;
+        padding: 0% 10% 0% 10%;
+        .article-content__text {
+            width: auto;
+        }
+    }
+    .article-content__author-cite {
+        width: auto;
+        margin: 79px 0% 15px 0%;
+        padding: 0% 8% 0% 0%;
+        letter-spacing: 0.002em;
+        
     }
 
+    .author-card--post-author {
+        .author-card__image {
+            margin: 0% 0% 0% 0%;
+        }
+    }
+    .comment-block {
+        width: 78vw;
+        margin: 157px 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+        .author-card--comment-author:nth-of-type(1) {
+            margin: 0% 0% 10% 0%;
+        }
+    }
+    .author-card--comment-author {
+        .author-card__text {
+            line-height: 30px;
+            letter-spacing: 0em;
+            padding: 0% 6% 0% 10.2%;
+        }
+        .author-card__pub-date {
+            margin: 2.5% 10% 0% 0%;
+        }
+    }
+    .comment-block__form {
+        margin: 8% auto 0% auto;
+    }
+    .comment-block__text {
+        width: 75.5%;
+    }
+
+    .additional-block {
+        margin: 107px 0% 98px;
+        .additional-block__item:nth-of-type(3) {
+            display: none;
+        }
+    }
+
+    .additional-block__cond-headline {
+        font-size: 36px;
+        line-height: 44px;
+        margin: 60px 0% 47px 0%;
+    }
+
+    .additional-block__item {
+        width: 46.355vw;
+    }
+
+    .additional-block__img {
+        width: 46.355vw;
+        height: 33.855vw;
+    }
+    .additional-block__headline {
+        margin: 23px 0% 0% 8%;
+    }
+
+    .additional-block__text {
+        margin: 8px 0% 0% 8%;
+        padding: 0% 10% 16px 0%;
+    }
+
+    .additional-block__activity-repost {
+        margin: 0% 16.5% 0% 18%;
+        &:before {
+            left: 10%;
+            top: 39%;
+        }
+    }
+
+    .additional-block__activity-views {
+        margin: 0% 16.8% 0% 0%;
+        &:before {
+            left: 32%;
+            top: 36%;
+        }
+    }
+    .additional-block__activity-comments {
+        &:before {
+            left: 55%;
+            top: 36%;
+        } 
+    }
 }
 
 
